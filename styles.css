@@ -1,5 +1,16 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: floralwhite;
+  font-family: cursive;
+  text-align: center;
+}
+html{
+  background-color: floralwhite;
+}
+
+button{
+  border-color: black;
+  background-color: blanchedalmond;
+  font-family: cursive;
 }
 
 /* Uncomment below if images are way too big.
@@ -11,4 +22,10 @@ Selects all image tags and makes them 500px;
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 300px;
+  height: auto;
 }
